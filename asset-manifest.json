@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/controls-games/static/css/main.7567e67e.css",
+    "main.js": "/controls-games/static/js/main.460b02d5.js",
+    "static/media/notecreo.jpg": "/controls-games/static/media/notecreo.d738483411328036d063.jpg",
+    "static/media/nofui.jpg": "/controls-games/static/media/nofui.e1ee217d4db2908a3c64.jpg",
+    "static/media/asombro.jpg": "/controls-games/static/media/asombro.3a6a9560654d110a7d27.jpg",
+    "static/media/chilaquil.jpg": "/controls-games/static/media/chilaquil.d5feaffcbf2bf8810186.jpg",
+    "static/media/pattern-module-small-op20.webp": "/controls-games/static/media/pattern-module-small-op20.9f7e25371bfeeffefcdc.webp",
+    "static/media/GamezPlaying.png": "/controls-games/static/media/GamezPlaying.63c9ace433689bf5bee4.png",
+    "static/media/ojitos.jpg": "/controls-games/static/media/ojitos.49cd144d5ba4482e8967.jpg",
+    "static/media/mentiroso.jpg": "/controls-games/static/media/mentiroso.168fdd1ba7a2c5815100.jpg",
+    "static/media/questioncat.jpg": "/controls-games/static/media/questioncat.6ff069373b5058ee86d3.jpg",
+    "static/media/GAMEZ-Playing.png": "/controls-games/static/media/GAMEZ-Playing.931630ea0e64a6ef3f97.png",
+    "index.html": "/controls-games/index.html",
+    "main.7567e67e.css.map": "/controls-games/static/css/main.7567e67e.css.map",
+    "main.460b02d5.js.map": "/controls-games/static/js/main.460b02d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7567e67e.css",
+    "static/js/main.460b02d5.js"
+  ]
+}
