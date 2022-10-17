@@ -1,0 +1,47 @@
+.welcome{
+    padding-left: 50px;
+    height: 100vh;
+    background-image: url(../images/pattern-module-small-op20.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.welcome .greet{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome .greet .main-header{
+    color: rgb(182, 182, 8);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Vesper Libre', serif;
+}
+
+.welcome .greet .main-description{
+    color: rgb(165, 165, 165);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.welcome .greet .main-description .my-information{
+    color: rgb(182, 182, 8);
+}
+
+.welcome .games{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

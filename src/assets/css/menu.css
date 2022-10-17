@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+
+header .logo{
+    flex-basis: 30%;
+}
+
+header ul{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul li .menu{
+    color: white;
+    text-decoration: none;
+}

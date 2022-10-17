@@ -1,0 +1,74 @@
+.tictac-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #c5c5c5;
+    opacity: 1;
+    background-size: 36px 63px;
+    background-position: 0 0,0 0,18px 32px,18px 32px,0 0,18px 32px;
+    background-image: linear-gradient(30deg,#b4b4b4 12%,transparent 12.5%,transparent 87%,#b4b4b4 87.5%,#b4b4b4),linear-gradient(150deg,#b4b4b4 12%,transparent 12.5%,transparent 87%,#b4b4b4 87.5%,#b4b4b4),linear-gradient(30deg,#b4b4b4 12%,transparent 12.5%,transparent 87%,#b4b4b4 87.5%,#b4b4b4),linear-gradient(150deg,#b4b4b4 12%,transparent 12.5%,transparent 87%,#b4b4b4 87.5%,#b4b4b4),linear-gradient(60deg,hsla(0,0%,70.6%,.466667) 25%,transparent 25.5%,transparent 75%,hsla(0,0%,70.6%,.466667) 0,hsla(0,0%,70.6%,.466667)),linear-gradient(60deg,hsla(0,0%,70.6%,.466667) 25%,transparent 25.5%,transparent 75%,hsla(0,0%,70.6%,.466667) 0,hsla(0,0%,70.6%,.466667));
+}
+
+table td{
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay .popup{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: black;
+}
+
+.overlay .popup #exit{
+    text-align: end;
+}
+
+.overlay .popup #exit span{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.overlay .popup .congratulation-container{
+    display: flex;
+    justify-content: center;
+}
+
+.overlay .popup .trophy-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.overlay .popup .trophy-container .trophy{
+    width: 150px;
+    height: 150px;
+    color: rgb(219, 219, 2);
+}
+
+.overlay .popup .congratulation-container .congratulations{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}

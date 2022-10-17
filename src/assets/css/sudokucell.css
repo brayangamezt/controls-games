@@ -1,0 +1,88 @@
+.sudoku-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.makingBord{
+    border-bottom: 2px solid red;
+}
+
+.makingColum{
+    border-right: 2px solid red !important;
+}
+
+.inputCell{
+    width: 34px;
+    height: 34px;
+    text-align: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.buttons-container .facil{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons-container .medio{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons-container .dificil{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/*Verificacion de los botones sudoku*/
+.buttons-verify .send-result{
+    margin-top: 25px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons-verify .reset-result{
+    margin-top: 25px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons-verify .solve-sudoku{
+    margin-top: 25px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
