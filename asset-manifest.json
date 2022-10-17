@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/controls-games/static/css/main.7567e67e.css",
-    "main.js": "/controls-games/static/js/main.79f7b7bc.js",
+    "main.js": "/controls-games/static/js/main.18a5bbe9.js",
     "static/media/notecreo.jpg": "/controls-games/static/media/notecreo.d738483411328036d063.jpg",
     "static/media/nofui.jpg": "/controls-games/static/media/nofui.e1ee217d4db2908a3c64.jpg",
     "static/media/asombro.jpg": "/controls-games/static/media/asombro.3a6a9560654d110a7d27.jpg",
@@ -14,10 +14,10 @@
     "static/media/GAMEZ-Playing.png": "/controls-games/static/media/GAMEZ-Playing.931630ea0e64a6ef3f97.png",
     "index.html": "/controls-games/index.html",
     "main.7567e67e.css.map": "/controls-games/static/css/main.7567e67e.css.map",
-    "main.79f7b7bc.js.map": "/controls-games/static/js/main.79f7b7bc.js.map"
+    "main.18a5bbe9.js.map": "/controls-games/static/js/main.18a5bbe9.js.map"
   },
   "entrypoints": [
     "static/css/main.7567e67e.css",
-    "static/js/main.79f7b7bc.js"
+    "static/js/main.18a5bbe9.js"
   ]
 }
