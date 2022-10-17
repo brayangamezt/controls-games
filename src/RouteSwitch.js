@@ -12,7 +12,7 @@ const RouteSwitch = () => {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path="/controls-games" element={<App/>} />
+            <Route path="/controls-games/" element={<App/>} />
             <Route path="/controls-games/tictactoe" element={<Tictac/>} />
             <Route path='/controls-games/memorama' element={<Memorama/>}/>
             <Route path='/controls-games/sudoku' element={<Sudokucell/>}/>
